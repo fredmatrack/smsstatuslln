@@ -1,0 +1,44 @@
+#header{
+	
+	width: 600px; 
+	background-color: #242424; 
+	height: 110px; 
+	clear: both; 
+	text-align: left;
+}
+
+#content{
+	font-family:verdana; 
+	font-size: 12px; 
+	height:385px;  
+	overflow: auto;
+	padding-top: 5px;
+	padding-left: 5px;
+}
+
+.titel{
+	font: bold 16px verdana;
+	color: white;
+	text-align: center;
+}
+
+.label{
+	font: 14px verdana;
+	color: white;
+	margin-left: 10px;
+	width: 100px;
+	float: left;
+}
+
+.input{
+	margin-left: 10px;
+}
+
+.leerling_link{
+    color: black;
+    text-decoration: none;
+}
+
+.leerling_link:hover{
+    text-decoration: underline;
+}
