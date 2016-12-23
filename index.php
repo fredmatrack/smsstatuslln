@@ -20,7 +20,7 @@
 	$arr_klassen = array();
 	
 	foreach ($tmp_arr_klassen as $tmpKlas) {
-		if(!$tmpKlas['isOfficial']){
+		if($tmpKlas['isOfficial']){
 			$arr_klassen[] = $tmpKlas['code'];
 		}
 	}
