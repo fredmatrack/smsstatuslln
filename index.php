@@ -6,10 +6,6 @@
 	
 	
 	
-	
-	
-	
-	
 	$client = new SoapClient($platform);
 	$tmp_arr_klassen = $client->getClassList($paswoord);
 	
@@ -34,7 +30,6 @@
 <head>
 <title>Smartschool status leerlingen</title>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-<script language="JavaScript" src="javascript/javascript.js"></script>
 <link href="css/css.css" rel="stylesheet" type="text/css" /> 
 </head>
 
